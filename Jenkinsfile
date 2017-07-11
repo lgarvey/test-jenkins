@@ -3,6 +3,8 @@ node {
     echo "$S3_BUCKET"  
     sh 'echo $S3_BUCKET'
 
+    println(env.S3_BUCKET)
+
     if(env.S3_BUCKET == "my magical s3 bucket"){
        echo "hooraaah"
     }
