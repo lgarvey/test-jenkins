@@ -5,5 +5,5 @@ node {
 
   def monkey = env.MONKEY
 
-  echo monkey
+  println(env)
 }
