@@ -3,6 +3,5 @@ node {
      echo "hello $S3_BUCKET / $S3_BUCKET2"
   }
 
-  println(env.MONKEY)
   echo "$MONKEY"
 }
