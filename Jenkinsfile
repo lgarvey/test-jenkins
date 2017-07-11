@@ -3,6 +3,8 @@ node {
      echo "hello $S3_BUCKET / $S3_BUCKET2"
   }
 
+  echo sh(returnStdout: true, script: 'env')
+
   def monkey = env.MONKEY
 
   println(env)
