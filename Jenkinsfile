@@ -5,7 +5,7 @@ node {
 
   echo sh(returnStdout: true, script: 'env')
 
-  def monkey = env.MONKEY
-
+  #:def monkey = env.MONKEY
+  println(env.MAGIC)
   println(env)
 }
