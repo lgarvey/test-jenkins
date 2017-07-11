@@ -4,4 +4,5 @@ node {
   }
 
   println(env.MONKEY)
+  echo "$MONEY"
 }
