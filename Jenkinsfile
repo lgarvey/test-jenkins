@@ -1,5 +1,5 @@
 node {
-  withCredentials([string(credentialsId: 's3bucket', variable: 'S3_BUCKET')]) {
+  withCredentials([string(credentialsId: 's3bucket2', variable: 'S3_BUCKET')]) {
     echo "$S3_BUCKET"  
     sh 'echo $S3_BUCKET'
 
