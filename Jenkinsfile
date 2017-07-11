@@ -3,5 +3,7 @@ node {
      echo "hello $S3_BUCKET / $S3_BUCKET2"
   }
 
-  echo "$MONKEY"
+  def monkey = env.MONKEY
+
+  echo monkey
 }
